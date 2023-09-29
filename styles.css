@@ -15,16 +15,21 @@ body {
 .navigation {
     margin-top: 5rem;
     display: flex;
-    align-content: space-between;
+    justify-content: space-between;
     background-color: #0aa1dd;
     padding: 0.5rem;
     border-radius: 4rem;
 }
 
-#navigation__link {
+.navigation__link {
     color: white;
     text-decoration: none;
     border-radius: 3rem;
     padding: 1rem 2rem;
     font-size: 1.5rem;
+}
+
+.navigation__link:hover {
+    background: white;
+    color: #0aa1dd;
 }

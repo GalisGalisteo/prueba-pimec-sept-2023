@@ -1,5 +1,18 @@
 Error 1:
 
+Hay que añadir lo siguiente:
+
+.navigation__link:hover {
+    background: white;
+    color: #0aa1dd;
+}
+
+Necesitamos aplicar en el selector ".navigation__link" el pseudoselector ":hover" con las propiedades "background" y "color" contrarias.
+
 Error 2:
 
+El selector está mal, esta puesto como id pero debería ser de clase (#navigation__link --> .navigation__link)
+
 Error 3: 
+
+La propiedad del selector .navigation está mal, debería ser "justify-content" (align-content --> justify-content)
